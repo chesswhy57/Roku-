@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HelloWorld" extends="Scene"> 
+	<children>
+       <Rectangle 
+       id="mouse"
+       text="Mouse"
+       width="30"
+       height="30"
+       />
+      <Rectangle
+      id="testsRectangle"
+      color="#59eb59"
+      width="1280"
+      height="160"
+      translation="[0,400]" />
+
+      <Rectangle
+      id="testRectangle"
+      color="0x880088FF"
+      width="1280"
+      height="60"
+      translation="[0,0]" />
+
+      <Label id="myLabel" 
+      	text="Chess!"
+      	width="580" 
+      	height="320" 
+      	horizAlign="center"
+      	vertAlign="center"
+        translation = "[700,0]" 
+      	/>
+      <Button
+          id="nicebutton"
+          text="Start"
+          width="200"
+          height="58"
+          translation="[700,200]" />
+      <Button
+          id="resignbutton"
+          text="Resign"
+          width="200"
+          height="58"
+          translation="[700,320]" />
+    </children>
+<!-- BrightScript Portion -->
+<script type="text/brightscript" uri="pkg:/components/helloworld.brs" >
+
+</script>
+</component>
